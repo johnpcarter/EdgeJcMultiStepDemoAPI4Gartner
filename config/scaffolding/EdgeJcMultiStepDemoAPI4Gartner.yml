@@ -1,6 +1,60 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:db_on_edge
+  packages:
+  - name: EdgeJcMultiStepDemoAPI4Gartner
+    version: "1.0"
+  configurations:
+  - name: edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge
+    properties:
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.minimumPoolSize
+      value: "0"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.keyStore
+      value: ""
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.networkProtocol
+      value: ""
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.maximumPoolSize
+      value: "10"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionEnabled
+      value: "false"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.transactionType
+      value: NO_TRANSACTION
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.driverType
+      value: default
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.dbType
+      value: MySQL
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.blockingTimeout
+      value: "1000"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.expireTimeout
+      value: "1000"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.startupBackoffSecs
+      value: "10"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.otherProperties
+      value: loginTimeout=60;
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.databaseName
+      value: scratch
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.datasourceClass
+      value: com.mysql.cj.jdbc.MysqlDataSource
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.poolable
+      value: "false"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.poolIncrementSize
+      value: "1"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.startupRetryCount
+      value: "0"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.portNumber
+      value: "3306"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.trustStore
+      value: ""
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.user
+      value: scratch
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionManagerSettings.heartBeatInterval
+      value: "0"
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.password
+      value: "{AES}Y5IgMqjfvkgbg7p5VUZztw=="
+    - name: artConnection.EdgeJcMultiStepDemoAPI4Gartner.edge.jcmultistepdemoapi4gartner.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.db_on_edge.connectionSettings.serverName
+      value: 192.168.5.2
 packages:
 - name: EdgeJcMultiStepDemoAPI4Gartner
   gitServerName: johnpcarter
