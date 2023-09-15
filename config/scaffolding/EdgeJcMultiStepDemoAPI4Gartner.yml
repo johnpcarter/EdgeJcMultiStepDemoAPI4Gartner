@@ -172,3 +172,9 @@ packages:
   gitUsername: johnpcarter
   gitToken: edge.scaffolding.EdgeJcMultiStepDemoAPI4Gartner.johnpcarter.gitToken
   gitBranch: main
+- name: JcPublicTools
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitToken: edge.scaffolding.JcPublicTools.johnpcarter.gitToken
+  gitTag: v2.1.0
